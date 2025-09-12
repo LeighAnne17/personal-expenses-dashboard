@@ -46,8 +46,6 @@ This project analyzes personal expenses using Python and visualizes insights wit
   - Top 5 spending categories
   - Category-wise spend comparison
 
-📌 Run these in the `scripts/` folder.
-
 ---
 
 ## 📊 Power BI Dashboard
@@ -102,13 +100,6 @@ All data is located in the `data/` folder:
 
 ---
 
-## 📌 Next Steps
-
-- Add income tracking for budgeting
-- Build web version with Streamlit or Flask
-- Include insights like savings rate, unnecessary spending flags, etc.
-
----
 
 ## ✨ Contact
 
