@@ -91,7 +91,7 @@ All data is located in the `data/` folder:
 
 ---
 
-## 🧠 Learnings
+## 🧠 Things I learnt from doing this project
 
 - Practiced full data workflow from cleaning to dashboarding
 - Learned how to create reusable Python scripts
@@ -103,6 +103,7 @@ All data is located in the `data/` folder:
 
 ## ✨ Contact
 
-**Created by:** Leigh-Anne Ndimande  
-**LinkedIn:** [Inset link]
-**GitHub Portfolio:** [Insert link]
+**Created by:** Leigh-Anne Nonkanyiso Ndimande  
+**LinkedIn:** https://linkedin.com/in/nonkanyiso-ndimande
+**GitHub Portfolio:** https://github.com/LeighAnne17
+**Email:** leighndimande17@icloud.com / bandiswa27@gmail.com
