@@ -23,12 +23,12 @@ This project analyzes personal expenses using Python and visualizes insights wit
 └── data_cleaning.py
 
 📁 images/
-├── dashboard_powerbi.png
-├── tableau_view.png
-├── python_output.png
-├── python_output1.png
-├── python_output2.png
-└── python_output3.png
+├── dashboard_powerbi.png (to be uploaded)
+├── tableau_view.png (to be uploaded)
+├── Figure1.png
+├── average_monthly_spend.png
+├── daily_spending_overtime.png
+└── spending_share_of_categories.png
 
 
 📄 expenses_dashboard.pbix
