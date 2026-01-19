@@ -1,4 +1,4 @@
-#💸 Personal Expense Tracker Dashboard (Python, Power BI, Tableau)
+# 💸 Personal Expense Tracker Dashboard (Python, Power BI, Tableau)
 
 This project analyzes personal expenses using Python and visualizes insights with Power BI and Tableau. The goal is to track spending, identify top categories, and enable informed budgeting decisions.
 
@@ -99,7 +99,23 @@ All data is located in the `data/` folder:
 - Practiced professional GitHub repo structure
 
 ---
+## 👩‍💻 About the Author
 
+Nonkanyiso(Leigh-Anne) Ndimande Data Analyst | Aspiring Data Scientist | AI & Cybersecurity Enthusiast
+
+This project is part of my growing portfolio focused on:
+
+• Data Analytics
+
+• Data Science
+
+• Machine Learning
+
+•Artificial Intelligence
+
+•Cybersecurity & Threat Analysis
+
+---
 
 ## ✨ Contact
 
