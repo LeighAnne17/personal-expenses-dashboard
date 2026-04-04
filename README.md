@@ -1,125 +1,152 @@
-# 💸 Personal Expense Tracker Dashboard (Python, Power BI, Tableau)
+# 💸 Personal Expense Tracker & Dashboard
 
-This project analyzes personal expenses using Python and visualizes insights with Power BI and Tableau. The goal is to track spending, identify top categories, and enable informed budgeting decisions.
+> **Can data change how you spend money?** This project answers that question by building a full analytics pipeline — from raw expense data to an interactive Power BI dashboard — that turns everyday spending into clear, actionable financial insights.
 
----
+-----
 
-## 📊 Project Highlights
+## 🧩 The Problem
 
-- 📂 Organized data pipeline (raw → cleaned)
-- 🐍 Python analysis and visualizations (Matplotlib & Pandas)
-- 📈 Interactive Power BI dashboard
-- 📉 Tableau visualization for cross-platform presentation
+Most people have a vague sense of where their money goes. Categories like “food” or “entertainment” feel abstract until you see them visualized month over month. This project simulates the role of a **personal finance analyst**: clean the data, find the patterns, and build a dashboard that makes the story impossible to ignore.
 
----
+-----
 
-## 🗃️ Project Structure
-📁 data/
-├── cleaned_expenses_data.csv
-└──  expenses_data.xlsx
+## 🎯 Key Questions Answered
 
-📁 scripts/
-├── data_analysis.py
-└── data_cleaning.py
+- Which spending categories consume the most of my budget?
+- How does my spending change month to month?
+- Are there any unusual spikes or outliers in my daily expenses?
+- Where can I realistically cut back?
 
-📁 images/
-├── dashboard_powerbi.png (to be uploaded)
-├── tableau_view.png (to be uploaded)
-├── Figure1.png
-├── average_monthly_spend.png
-├── daily_spending_overtime.png
-└── spending_share_of_categories.png
+-----
 
+## 📊 Dashboard Preview
 
-📄 expenses_dashboard.pbix
-📄 README.md
+### Power BI Dashboard
 
-
----
-
-## 🐍 Python Analysis
-
-- Cleaned and transformed expense data using `pandas`
-- Aggregated spending per category and per month
-- Visualized:
-  - Monthly spend trends
-  - Top 5 spending categories
-  - Category-wise spend comparison
-
----
-
-## 📊 Power BI Dashboard
-
-- KPIs: Total Transactions, Total Amount Spent
-- Slicer: Filter by Month
-- Charts:
-  - Top 5 Categories
-  - Monthly Spending
-  - Category Breakdown (Pie Chart)
-
-📁 File: `expenses_dashboard.pbix`
-
-🖼️ Preview:  
 ![Power BI Dashboard](images/dashboard_powerbi.png)
 
----
+> KPIs: Total Transactions · Total Amount Spent  
+> Filters: Month slicer  
+> Charts: Top 5 Categories · Monthly Trend · Category Breakdown (Pie)
 
-## 📉 Tableau Visualization 
- 
+### Tableau Visualization
 
-🖼️ Preview:  
-![Tableau Dashboard](images/tableau_view.png)
+![Tableau View](images/tableau_view.png)
 
----
+### Python EDA Charts
 
-## 📦 Data
+![Monthly Spend](images/average_monthly_spend.png)
+![Daily Spending Over Time](images/daily_spending_overtime.png)
+![Category Breakdown](images/spending_share_of_categories.png)
 
-All data is located in the `data/` folder:
-- `expenses_data.xlsx`: Unprocessed data
-- `cleaned_expenses.csv`: Used for analysis and dashboards
+-----
 
----
+## 🛠️ Tools & Technologies
 
-## 🔧 Tools Used
+|Tool                       |Purpose                                    |
+|---------------------------|-------------------------------------------|
+|Python (pandas, matplotlib)|Data cleaning, EDA, and visualizations     |
+|Power BI                   |Interactive dashboard with slicers and KPIs|
+|Tableau                    |Cross-platform visualization               |
+|Git & GitHub               |Version control and portfolio hosting      |
 
-- Python 3.12
-  - pandas
-  - matplotlib
-- Power BI
-- Tableau
-- Git & GitHub
+-----
 
----
+## 📁 Project Structure
 
-## 🧠 Things I learnt from doing this project
+```
+personal-expenses-dashboard/
+│
+├── data/
+│   ├── expenses_data.xlsx         # Raw input data
+│   └── cleaned_expenses_data.csv  # Processed and ready for analysis
+│
+├── scripts/
+│   ├── data_cleaning.py           # Handles nulls, formatting, categorization
+│   └── data_analysis.py           # EDA, aggregations, and chart generation
+│
+├── images/
+│   ├── dashboard_powerbi.png      # Power BI dashboard screenshot
+│   ├── tableau_view.png           # Tableau visualization screenshot
+│   ├── average_monthly_spend.png
+│   ├── daily_spending_overtime.png
+│   └── spending_share_of_categories.png
+│
+├── expenses_data.pbix             # Power BI source file
+└── README.md
+```
 
-- Practiced full data workflow from cleaning to dashboarding
-- Learned how to create reusable Python scripts
-- Built visually appealing, interactive reports in Power BI & Tableau
-- Practiced professional GitHub repo structure
+-----
 
----
+## 🔄 Data Pipeline
+
+```
+Raw Excel Data → Python Cleaning → CSV Export → Power BI / Tableau → Insights
+```
+
+**Cleaning steps performed:**
+
+- Removed duplicate and null entries
+- Standardized date formats
+- Categorized transactions into consistent spending groups
+- Calculated monthly and category-level aggregates
+
+-----
+
+## 📈 Key Findings
+
+- **Food & dining** consistently ranked as the top spending category, accounting for the largest share of monthly expenditure
+- **Monthly spending peaked** in certain months, revealing seasonal patterns worth monitoring
+- **Daily spend tracking** exposed irregular spikes that would go unnoticed in monthly summaries alone
+- A small number of categories drove the majority of total spend — a classic **Pareto pattern**
+
+-----
+
+## 💡 Business Recommendation
+
+If this were a client engagement, I’d recommend:
+
+1. Setting a **monthly cap** on the top 2 spending categories
+1. Using the **month-over-month trend** to flag budget overruns early
+1. Automating this pipeline to refresh weekly with live transaction data
+
+-----
+
+## 🚀 How to Run the Python Analysis
+
+```bash
+# Clone the repo
+git clone https://github.com/LeighAnne17/personal-expenses-dashboard.git
+cd personal-expenses-dashboard
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run cleaning script
+python scripts/data_cleaning.py
+
+# Run analysis and generate charts
+python scripts/data_analysis.py
+```
+
+To explore the Power BI dashboard, open `expenses_data.pbix` in Power BI Desktop.
+
+-----
+
+## 🧠 What I Learned
+
+- How to build a **reusable data pipeline** from raw input to visual output
+- Designing **multi-tool dashboards** (Python + Power BI + Tableau) for different audiences
+- Translating raw numbers into **business-relevant narratives**
+- Professional GitHub repo organization and documentation
+
+-----
+
 ## 👩‍💻 About the Author
 
-Nonkanyiso(Leigh-Anne) Ndimande Data Analyst | Aspiring Data Scientist | AI & Cybersecurity Enthusiast
+**Nonkanyiso (Leigh-Anne) Ndimande**  
+Data Analyst | Aspiring Data Scientist | Finance & Cybersecurity Analytics Enthusiast
 
-This project is part of my growing portfolio focused on:
+I build projects that bridge the gap between raw data and real decisions. This project reflects my interest in **personal finance analytics** and my goal of making data accessible and actionable for everyday use.
 
-• Data Analytics
-
-• Data Science
-
-• Machine Learning
-
-•Artificial Intelligence
-
-•Cybersecurity & Threat Analysis
-
----
-
-## ✨ Contact
-
-**Created by:** Leigh-Anne Nonkanyiso Ndimande  
-**LinkedIn:** https://linkedin.com/in/nonkanyiso-ndimande
-**GitHub Portfolio:** https://github.com/LeighAnne17
-**Email:** leighndimande17@icloud.com / bandiswa27@gmail.com
+📎 [LinkedIn](https://linkedin.com/in/nonkanyiso-ndimande) · [GitHub](https://github.com/LeighAnne17) · [Email](mailto:leighndimande17@icloud.com)
