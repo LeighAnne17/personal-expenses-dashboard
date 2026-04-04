@@ -1,6 +1,6 @@
 # 💸 Personal Expense Tracker & Dashboard
 
-> **Can data change how you spend money?** This project answers that question by building a full analytics pipeline — from raw expense data to an interactive Power BI dashboard — that turns everyday spending into clear, actionable financial insights.
+> **Can data change how you spend money?** This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
 
 -----
 
