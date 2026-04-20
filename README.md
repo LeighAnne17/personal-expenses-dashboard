@@ -1,6 +1,7 @@
 # 💸 Personal Expense Tracker & Dashboard
 
-> **Can data change how you spend money?** This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
+> **Can data change how you spend money?**
+>  This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
 
 -----
 
@@ -21,17 +22,6 @@ Most people have a vague sense of where their money goes. Categories like “foo
 
 ## 📊 Dashboard Preview
 
-### Power BI Dashboard
-
-![Power BI Dashboard](images/dashboard_powerbi.png)
-
-> KPIs: Total Transactions · Total Amount Spent  
-> Filters: Month slicer  
-> Charts: Top 5 Categories · Monthly Trend · Category Breakdown (Pie)
-
-### Tableau Visualization
-
-![Tableau View](images/tableau_view.png)
 
 ### Python EDA Charts
 
@@ -65,9 +55,8 @@ personal-expenses-dashboard/
 │   ├── data_cleaning.py           # Handles nulls, formatting, categorization
 │   └── data_analysis.py           # EDA, aggregations, and chart generation
 │
-├── images/
-│   ├── dashboard_powerbi.png      # Power BI dashboard screenshot
-│   ├── tableau_view.png           # Tableau visualization screenshot
+├── images/      
+│   ├── excel_dashboard.png           # Excel visualization screenshot
 │   ├── average_monthly_spend.png
 │   ├── daily_spending_overtime.png
 │   └── spending_share_of_categories.png
@@ -81,7 +70,7 @@ personal-expenses-dashboard/
 ## 🔄 Data Pipeline
 
 ```
-Raw Excel Data → Python Cleaning → CSV Export → Power BI / Tableau → Insights
+Raw Excel Data → Python Cleaning → CSV Export → Insights
 ```
 
 **Cleaning steps performed:**
