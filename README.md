@@ -1,4 +1,5 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f650210e-570e-462d-b57d-e5b5dba6f10c" /># 💸 Personal Expense Tracker & Dashboard
+# 💸 Personal Expense Tracker & Dashboard
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f650210e-570e-462d-b57d-e5b5dba6f10c" />
 
 ## **Can data change how you spend money?**
 This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
