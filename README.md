@@ -2,13 +2,13 @@
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f650210e-570e-462d-b57d-e5b5dba6f10c" />
 
 ## **Can data change how you spend money?**
-This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
+This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Google DataStudio dashboard that turns everyday spending into clear, actionable financial insights.
 
 -----
 
 ## 🧩 The Problem
 
-Most people have a vague sense of where their money goes. Categories like “food” or “entertainment” feel abstract until you see them visualized month over month. This project simulates the role of a **personal finance analyst**: clean the data, find the patterns, and build a dashboard that makes the story impossible to ignore.
+Most people have a vague sense of where their money goes. Categories like “food” or “entertainment” feel abstract until you see them visualized month over month. This project simulates the role of a personal finance analyst: clean the data, find the patterns, and build a dashboard that makes the story impossible to ignore.
 
 -----
 
@@ -39,8 +39,7 @@ view Live dashboard : https://datastudio.google.com/reporting/bd918b75-cf4e-4780
 |Tool                       |Purpose                                    |
 |---------------------------|-------------------------------------------|
 |Python (pandas, matplotlib)|Data cleaning, EDA, and visualizations     |
-|Power BI                   |Interactive dashboard with slicers and KPIs|
-|Tableau                    |Cross-platform visualization               |
+|Google Data Studio         |Interactive dashboard with slicers and KPIs|
 |Git & GitHub               |Version control and portfolio hosting      |
 
 -----
@@ -59,7 +58,7 @@ personal-expenses-dashboard/
 │   └── data_analysis.py           # EDA, aggregations, and chart generation
 │
 ├── images/      
-│   ├── excel_dashboard.png           # Excel visualization screenshot
+│   ├── dashboard.png                 # DataStudio visualization screenshot
 │   ├── average_monthly_spend.png
 │   ├── daily_spending_overtime.png
 │   └── spending_share_of_categories.png
@@ -128,7 +127,7 @@ To explore the Power BI dashboard, open `expenses_data.pbix` in Power BI Desktop
 ## 🧠 What I Learned
 
 - How to build a **reusable data pipeline** from raw input to visual output
-- Designing **multi-tool dashboards** (Python + Power BI + Tableau) for different audiences
+- Designing **multi-tool dashboards** (Python + Power BI + DataStudio) for different audiences
 - Translating raw numbers into **business-relevant narratives**
 - Professional GitHub repo organization and documentation
 
@@ -139,6 +138,6 @@ To explore the Power BI dashboard, open `expenses_data.pbix` in Power BI Desktop
 **Nonkanyiso (Leigh-Anne) Ndimande**  
 Data Analyst | Aspiring Data Scientist | Finance & Cybersecurity Analytics Enthusiast
 
-I build projects that bridge the gap between raw data and real decisions. This project reflects my interest in **personal finance analytics** and my goal of making data accessible and actionable for everyday use.
+I build projects that bridge the gap between raw data and real decisions. This project reflects my interest in personal finance analytics and my goal of making data accessible and actionable for everyday use.
 
 📎 [LinkedIn](https://linkedin.com/in/nonkanyiso-ndimande) · [GitHub](https://github.com/LeighAnne17) · [Email](mailto:leighndimande17@icloud.com)
