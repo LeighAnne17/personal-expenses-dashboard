@@ -1,7 +1,7 @@
-# 💸 Personal Expense Tracker & Dashboard
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f650210e-570e-462d-b57d-e5b5dba6f10c" /># 💸 Personal Expense Tracker & Dashboard
 
-> **Can data change how you spend money?**
->  This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
+## **Can data change how you spend money?**
+This project answers that question by building a full analytics pipeline, from raw expense data to an interactive Power BI dashboard that turns everyday spending into clear, actionable financial insights.
 
 -----
 
@@ -21,6 +21,8 @@ Most people have a vague sense of where their money goes. Categories like “foo
 -----
 
 ## 📊 Dashboard Preview
+![Dashboard Screenshot](images/dashboard.png)
+view Live dashboard : https://datastudio.google.com/reporting/bd918b75-cf4e-4780-86ff-747ca9442629
 
 
 ### Python EDA Charts
